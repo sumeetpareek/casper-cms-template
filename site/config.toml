@@ -40,7 +40,7 @@
 baseURL = "/"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "LoveIt Theme"                                   # website title
+title = "Simple and Audacious"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -48,8 +48,8 @@ paginate = 12                                            # default amount of pos
 enableEmoji = true                                       # whether to use emoji code
 enableRobotsTXT = true                                   # whether to use robots.txt
 googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
-disqusShortname = "dillonzq"                             # Disqus shortname to use Disqus in posts
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+disqusShortname = ""                             # Disqus shortname to use Disqus in posts
+copyright = ""
                                                          # copyright description used only for seo schema
 
                                                       #### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
@@ -61,7 +61,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "XXXX"
+  name = "Sumeet Pareek"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -72,23 +72,29 @@ staticDir = ["static", "../assets/others"]               # static directories
   posts = ":year/:month/:filename"
 
 [menu]                                                #### Menu Info
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts"
-    weight = 1
+  # [[menu.main]]
+  #   identifier = "home"
+  #   name = "Home TODO"
+  #   url = "home"
+  #   weight = 1
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags"
-    weight = 2
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name = "Posts"
+  #   url = "posts"
+  #   weight = 1
 
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "categories"
-    weight = 3
+  # [[menu.main]]
+  #   identifier = "tags"
+  #   name = "Tags"
+  #   url = "tags"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   identifier = "categories"
+  #   name = "Categories"
+  #   url = "categories"
+  #   weight = 3
 
   [[menu.main]]
     identifier = "about"
@@ -96,33 +102,40 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
+  # [[menu.main]]
+  #   identifier = "work"
+  #   name = "Work TODO"
+  #   url = "work"
+  #   weight = 5
+
+# TODO language
+  # [[menu.main]]
+  #   identifier = "zh"
+  #   name = '<i class="fas fa-language fa-fw"></i>'
+  #   url = "https://hugo-loveit-zh.netlify.com"
+  #   weight = 6
 
 [params]
   version = "5.x"                                        # LoveIt theme version
-  description = "LoveIt Theme Demo"                      # site description
-  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
+  description = "TODO description"                      # site description
+  keywords = ["TODO one", "TODO two", "TODO three"]                   # site keywords
 
                                                       #### Home Page Info
-  home_mode = "post"                                     # [post, other] home mode
+  home_mode = "other"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
+  avatar = "https://hugo-loveit-en.netlify.com/images/avatar.png"                           # URL of avatar shown in home page
+  subtitle = "TODO site subtitle"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
                                                       #### Footer CopyRight Info
   since = 2018                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
-  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  license= ''
                                                          # license info (HTML format is allowed)
   gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
-  linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
+  linkToMarkdown = false                                  # whether to show link to Raw Markdown content of the post
 
                                                       #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
   google_verification = ""
@@ -156,13 +169,13 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    # GitHub = "xxxx"
+    # Linkedin = "xxxx"
+    # Twitter = "xxxx"
     #Instagram = "xxxx"
     #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    # Facebook = "xxxx"
+    # Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
@@ -215,10 +228,10 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Thingiverse = "xxxx"
 
   [params.share]                                         # Social Share Links in post page
-    enable = true
-    Twitter = true
-    Facebook = true
-    Reddit = true
+    # enable = true
+    # Twitter = true
+    # Facebook = true
+    # Reddit = true
     #Linkedin = true
     #Pinterest = true
     #HackerNews = true
@@ -228,7 +241,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "XXXX"
+    name = "TODO"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
