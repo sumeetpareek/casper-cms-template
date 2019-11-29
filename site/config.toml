@@ -96,11 +96,11 @@ staticDir = ["static", "../assets/others"]               # static directories
   #   url = "categories"
   #   weight = 3
 
-  [[menu.main]]
-    # identifier = "about"
-    # name = "About"
-    # url = "about"
-    # weight = 4
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "about"
+  #   weight = 4
 
   # [[menu.main]]
   #   identifier = "work"
