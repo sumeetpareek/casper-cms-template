@@ -97,10 +97,10 @@ staticDir = ["static", "../assets/others"]               # static directories
   #   weight = 3
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "about"
-    weight = 4
+    # identifier = "about"
+    # name = "About"
+    # url = "about"
+    # weight = 4
 
   # [[menu.main]]
   #   identifier = "work"
@@ -123,8 +123,8 @@ staticDir = ["static", "../assets/others"]               # static directories
                                                       #### Home Page Info
   home_mode = "other"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "https://hugo-loveit-en.netlify.com/images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "TODO site subtitle"  # subtitle shown in home page
+  avatar = "images/sumeet_pareek_avataar.jpg"                           # URL of avatar shown in home page
+  subtitle = ""  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
@@ -145,7 +145,7 @@ staticDir = ["static", "../assets/others"]               # static directories
   baidu_verification = ""
 
   [params.cdn]                                       #### CSS and JS Files CDN
-    fontawesome_free_css = ''                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
+    fontawesome_free_css = '<script src="https://kit.fontawesome.com/5d3340fc54.js" crossorigin="anonymous"></script>'                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
     animate_css = ''
     gitalk_css = ''
     gitalk_js = ''
