@@ -68,8 +68,8 @@ staticDir = ["static", "../assets/others"]               # static directories
   filename = "sitemap.xml"
   priority = 0.5
 
-[Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-  posts = ":year/:month/:filename"
+[permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+  posts = ":slug"
 
 [menu]                                                #### Menu Info
   # [[menu.main]]
@@ -120,6 +120,7 @@ staticDir = ["static", "../assets/others"]               # static directories
   description = "TODO description"                      # site description
   keywords = ["TODO one", "TODO two", "TODO three"]                   # site keywords
 
+  dateFormatToUse = "Monday, January 2, 2006"
                                                       #### Home Page Info
   home_mode = "other"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
